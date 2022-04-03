@@ -1,0 +1,47 @@
+body {
+    background-color: wheat;
+    text-align: center;
+}
+#players-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    
+    
+}
+#players-container h2 {
+    flex: 1 0 100%;
+}
+#players-container p {
+    
+    width: 50px;
+    text-align: center;
+   
+    border-radius: 10px;
+    background-color: green;
+    font-size: larger;
+    color: white;
+    padding: 5px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+#players-container p:hover {
+    background-color: red;
+}
+#start {
+    font-size: 32px;
+    
+    
+    width: 200px;
+    min-height: 50px;
+    background-color: #8400ff ;
+    color: white;
+}
+#start::before {
+    font-size: 12px;
+    font-family: 'Font Awesome 6 Free';
+    content: '\f522' ;
+}
